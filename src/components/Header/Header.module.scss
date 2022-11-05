@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.navLinks {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff80;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &.active {
+        color: #ffffff;
+    }
+
+    &:hover {
+        color: #ffffff;
+    }
+}
